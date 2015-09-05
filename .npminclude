@@ -1,0 +1,6 @@
+package.json
+lib/xml.js
+lib/zip.js
+tasks/pack.js
+LICENSE
+README.md

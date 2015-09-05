@@ -1,0 +1,34 @@
+{
+  "name": "grunt-msdeploypack",
+  "description": "Grunt MS Deploy packager - Create MS Deploy compatible packages",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "https://github.com/spatools/grunt-msdeploypack.git",
+  "author": {
+    "name": "SPA Tools",
+    "url": "http://github.com/spatools/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/spatools/grunt-msdeploypack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spatools/grunt-msdeploypack/issues"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0"
+  },
+  "dependencies": {
+    "jszip": "^2.5.0",
+    "xmlbuilder": "^2.6.4"
+  },
+  "keywords": [
+    "gruntplugin",
+    "grunt",
+    "msdeploy",
+    "package",
+    "deploy",
+    "pack"
+  ]
+}
