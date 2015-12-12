@@ -21,7 +21,29 @@ grunt.initConfig({
         dist: {
             src: './',
             options: {
-                package: "app.js"
+                package: "app.zip"
+            }
+        }
+    }
+    
+});
+```
+
+### To publish another directory
+
+```javascript
+grunt.initConfig({
+
+    msdeploypack: {
+        dist: {
+            files: [{
+                expand: true,
+                cwd: "<%= paths.build %>",
+                src: "**/*.*",
+                dest: "./"
+            }],
+            options: {
+                package: "<%= paths.build %>/app.zip"
             }
         }
     }
